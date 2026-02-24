@@ -1,19 +1,14 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
-- week1
+- master
 
-pool: My Agent
+pool:
+  name: 'My Agent'
 
 steps:
 - task: AzureCLI@2
   displayName: 'Running Pipeline Script'
   inputs:
-    azureSubscription: 'myServiceConnection'
+    azureSubscription: 'myServiceConnection1'
     scriptType: 'bash'
     scriptLocation: 'scriptPath'
     scriptPath: 'pipeline_script.sh'
-
