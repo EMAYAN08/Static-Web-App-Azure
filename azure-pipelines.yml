@@ -9,7 +9,6 @@ steps:
   displayName: 'Running Pipeline Script'
   inputs:
     azureSubscription: 'myServiceConnection1'
-    scriptType: 'ps'
-    scriptLocation: 'inlineScript'
-    inlineScript: |
-      bash "$(Build.SourcesDirectory)/pipeline_script.sh"
+    scriptType: 'ps'        # PowerShell on Windows
+    scriptLocation: 'scriptPath'
+    scriptPath: 'pipeline_script.sh'
