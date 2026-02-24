@@ -1,15 +1,15 @@
 #!/bin/bash
 
-AccountName="static-web-app"
+AccountName="staticwebappstg"
 RG="static-web-app-rg"
-ProfileName="static-web-app-cdn"
-EndPoint="static-web-app-endpoint"
+ProfileName="staticwebappcdn"
+EndPoint="staticwebappendpoint"
 
 echo "--------------------------------------------------------"
 echo "|   Removing previous content from CDN edge locations  |"
 echo "--------------------------------------------------------"
 
-az cdn endpoint purge \
+az afd endpoint purge \
       --name $EndPoint \
       --profile-name $ProfileName \
       --resource-group $RG \
