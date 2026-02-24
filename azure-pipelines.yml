@@ -1,11 +1,8 @@
-# azure-pipelines.yml
-
 trigger:
 - master
 
-# Use Microsoft-hosted agent
 pool:
-  vmImage: 'ubuntu-latest'   # or 'windows-latest'
+  name: 'My Agent'
 
 steps:
 - task: AzureCLI@2
