@@ -1,12 +1,11 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+# azure-pipelines.yml
 
 trigger:
-- week1
+- master
 
-pool: My Agent
+# Use Microsoft-hosted agent
+pool:
+  vmImage: 'ubuntu-latest'   # or 'windows-latest'
 
 steps:
 - task: AzureCLI@2
@@ -16,4 +15,3 @@ steps:
     scriptType: 'bash'
     scriptLocation: 'scriptPath'
     scriptPath: 'pipeline_script.sh'
-
