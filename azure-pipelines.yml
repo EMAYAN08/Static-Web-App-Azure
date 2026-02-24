@@ -11,7 +11,7 @@ steps:
 - task: AzureCLI@2
   displayName: 'Running Pipeline Script'
   inputs:
-    azureSubscription: 'myServiceConnection'
+    azureSubscription: 'myServiceConnection1'
     scriptType: 'bash'
     scriptLocation: 'scriptPath'
     scriptPath: 'pipeline_script.sh'
