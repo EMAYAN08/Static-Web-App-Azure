@@ -1,9 +1,9 @@
 #!/bin/bash
 
-AccountName="staticstoragewebsite"
-RG="staticWebsiteRG"
-ProfileName="staticwebsitecdn"
-EndPoint="staticwebsiteendpoint"
+AccountName="static-web-app"
+RG="static-web-app-rg"
+ProfileName="static-web-app-cdn"
+EndPoint="static-web-app-endpoint"
 
 echo "--------------------------------------------------------"
 echo "|   Removing previous content from CDN edge locations  |"
