@@ -13,3 +13,5 @@ This project is a demonstration of hosting a static website on Azure Cloud by us
 - **Trigger Pipeline** — Azure DevOps pulls it and the pipeline gets triggered automatically upon every push.
 - **Deploy** — The pipeline deploys the static assets to the Azure Storage Account.
 - **Azure CDN** —  pulls the latest content from the Storage Account and serves the website content globally to end users.
+
+![demo diagram](az-serverless-cart1.svg)
