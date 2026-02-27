@@ -15,3 +15,12 @@ This project is a demonstration of hosting a static website on Azure Cloud by us
 - **Azure CDN** —  pulls the latest content from the Storage Account and serves the website content globally to end users.
 
 ![demo diagram](az-serverless-cart1.svg)
+
+testing gif
+![gif](./az-serverless-cart.gif)
+
+testing png
+![gif](./az-serverless-cart.png)
+
+testing another svg
+![gif](./az-serverless-cart.svg)
