@@ -6,7 +6,7 @@ This project is a demonstration of hosting a static website on Azure Cloud by us
 
 ### 🏗️Setup Architecture
 ![demo](images/az-static-web_demo.png)
-
+![demo_animated_diagram](images/az-static-web-animated.svg)
 
 ### ⚙️How It Works
 - **Push code**  — Developer pushes the latest website code.
